@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Abonare</title>
+    <link rel="icon" href="https://www.iconarchive.com/download/i42743/oxygen-icons.org/oxygen/Actions-news-subscribe.256.png">
+    <style>
+        .form {background-color:#e60000;
+               padding: 20px;}
+        .h2 {color: white; text-align: center;}
+        .input {border: none; 
+               font-size: 25px;
+               padding: 10px; 
+               width: 450px;
+               padding-left: 50px;
+               background-image: url(at.svg);
+               background-position: left;
+               background-repeat: no-repeat;
+               border-radius: 30px;
+               }
+        .button {border: none; 
+               font-size: 25px; 
+               padding: 10px;
+               color: transparent;
+               background-color: #ff8566; 
+               background-image: url(email-fast.svg);
+               background-repeat: no-repeat;
+               background-position:center;
+               border-radius: 30px;
+               }
+    </style>
+</head>
+<body style="width: 700px;">
+    <form class="form">
+        <h2 class="h2">Abonați-vă la buletinul nostru informativ</h2>
+        <label>
+            <input name="termenii" style="width: 15px; height: 15px; border-radius: 5px;" type="checkbox" required> <span
+                style="font-size: 18px; font-family: Arial, Helvetica, sans-serif; vertical-align: bottom;">Accept termenii si
+                conditiile serviciului</span>
+        </label><br><br>
+        <label>
+            <input class="input" type="text" name="email" placeholder="marinabrovinschii@gmail.com" required autofocus>
+        </label>
+        <button class="button">ABONARE</button>
+    </form>
+</body>
+</html>
